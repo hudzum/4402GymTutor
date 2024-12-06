@@ -1,0 +1,67 @@
+Test Queries
+1.  Getting member information from all members
+SELECT
+     Members.member_id AS id,
+     Members.first_name || ' ' || Members.last_name AS name,
+     Members.email,
+     Members.phone_number,
+     MembershipPlans.plan_name AS plan_type
+   FROM Members
+   LEFT JOIN MembershipPlans ON Members.plan_name = MembershipPlans.plan_name;
+Output
+1|David Clark|david.clark@example.com|555-2345|Basic
+2|Emma Taylor|emma.taylor@example.com|555-3456|Premium
+3|Olivia Johnson|olivia.johnson@example.com|555-4567|VIP
+4|Liam Brown|liam.brown@example.com|555-5678|Basic
+5|Noah Miller|noah.miller@example.com|555-6789|Premium
+6|Sophia Wilson|sophia.wilson@example.com|555-7890|VIP
+7|Ethan Davis|ethan.davis@example.com|555-8901|Basic
+8|Ava Martinez|ava.martinez@example.com|555-9012|Premium
+9|Mason Anderson|mason.anderson@example.com|555-0123|VIP
+10|Charlotte Lee|charlotte.lee@example.com|555-1234|Basic
+
+
+
+2. Creating a new member
+INSERT INTO Members (first_name, last_name, phone_number, email, plan_name)
+VALUES ('Jared', 'Subway', '504-9205', 'yum@gmail.com', 'Basic');
+On Sqlite No output will be immediately provided, but if you run the first query Jared Sandwich is a new Member on the bottom of the list.
+
+3. Deleting an existing member
+DELETE FROM members WHERE member_id = 1
+On Sqlite No output will be immediately provided, but upon running the first query Member with ID 1 David Clark is no longer a member and should not appear.
+
+4. Getting all the classes with Instructor Name
+SELECT
+     c.class_id,
+     c.class_name,
+     c.schedule,
+     c.description,
+     c.class_count,
+     c.instructor_id,
+     i.first_name || ' ' || i.last_name AS instructor_name
+   FROM
+     Classes c
+   LEFT JOIN
+     Instructors i
+   ON
+     c.instructor_id = i.instructor_id;
+Output
+1|🏋️‍♂️ Strength Training|Tuesday 5 PM|Build muscle strength and endurance with guided weight exercises.|15|4|Mia Garcia
+2|🏃‍♀️ Cardio Blast|Thursday 6 AM|High-energy cardio session to improve heart health and stamina.|18|5|James Harris
+3|🧘 Power Yoga|Saturday 8 AM|A faster-paced Yoga class for intermediate practitioners.|12|1|Jack Brown
+4|🚴 Spin Advanced|Friday 7 PM|Advanced cycling class for experienced riders.|10|2|Ella Thompson
+5|🤸 CrossFit Basics|Monday 6 PM|Introductory CrossFit class for building core strength.|20|6|Grace Robinson
+6|🤽 Aqua Aerobics|Wednesday 9 AM|Low-impact water-based fitness class.|25|7|Benjamin Clark
+7|🥊 Kickboxing|Tuesday 7 PM|High-intensity kickboxing class for fitness and self-defense.|30|8|Amelia Lewis
+8|🕺 Zumba|Sunday 10 AM|Dance-based workout to energetic music.|28|9|Oliver Walker
+9|🏊 Swimming Lessons|Saturday 4 PM|Basic swimming techniques for beginners.|8|10|Isabella King
+10|🤸 Advanced Pilates|Thursday 5 PM|An intense Pilates session for advanced members.|14|3|Lucas Martinez
+
+5. Updating the Class Count
+UPDATE Classes
+   SET class_count = class_count + 1
+   WHERE class_id = 1;
+
+
+ No Immediate Output, but if you run query #4, Strength Training should now have 1 extra Clas Count. 
