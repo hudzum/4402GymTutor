@@ -21,7 +21,7 @@ This is my Example Gym Business Project, it is separted into three main sections
    Server is running at http://localhost:3000
    Connected to the SQLite database.
 
-5. cd out of our backend folder into the main project folder
+5. Open a new terminal and cd the main project folder
    
 7.  cd into our GymTutorWebsite folder
 
@@ -35,7 +35,8 @@ This is my Example Gym Business Project, it is separted into three main sections
 
 9. Use Control + [Left click on the link] http://localhost:5173/
 
-10. Congratulations you should now be able to see the home page of the Gym Website and test the API Features from the Report!
+10. Congratulations you should now be able to see the home page of the Gym Website and test the API Features from the Report! (if only the front end wihout any data appear recheck the backend server.js intilization)
+
 
 ****How to Run test Queries****
 
