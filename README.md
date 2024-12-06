@@ -35,7 +35,7 @@ This is my Example Gym Business Project, it is separted into three main sections
 
 9. Use Control + [Left click on the link] http://localhost:5173/
 
-10. Congratulations you should now be able to see the home page of the Gym Website
+10. Congratulations you should now be able to see the home page of the Gym Website and test the API Features from the Report!
 
 ****How to Run test Queries****
 
@@ -57,7 +57,7 @@ This is my Example Gym Business Project, it is separted into three main sections
 
 8. paste into our created terminal area.
 
-9. Congratulations you should now be able to make sql queries directly to the gym database
+9. Congratulations you should now be able to make sql queries directly to the gym database 
 
 ****Participation Details****
 Frontend, Backend, Database - Hudson Vu
