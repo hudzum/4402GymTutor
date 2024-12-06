@@ -1,4 +1,4 @@
-**Intro / Project Structure**
+****Intro / Project Structure****
 
 Hello Professor. Jasim and Company 
 This is my Example Gym Business Project, it is separted into three main sections from the main repo folder.
@@ -10,7 +10,7 @@ This is my Example Gym Business Project, it is separted into three main sections
 3. test_queries.txt - This file holds our test queries along with the expected outcomes for each.
 
 
-**How to Setup Local Host for our API testing and Grading**
+****How to Setup Local Host for our API testing and Grading****
 1. Open a terminal and cd into the project folder
 
 2. cd into our backend folder
@@ -36,7 +36,7 @@ This is my Example Gym Business Project, it is separted into three main sections
 
 10. Congratulations you should now be able to see the home page of the Gym Website
 
-**How to Run test Queries**
+****How to Run test Queries****
 
 1. cd into our backend folder
 
@@ -58,6 +58,6 @@ This is my Example Gym Business Project, it is separted into three main sections
 
 9. Congratulations you should now be able to make sql queries directly to the gym database
 
-**Participation Details**
+****Participation Details****
 Frontend, Backend, Database - Hudson Vu
 If you have any questions Professor Jasim and Company feel free to email me at hvu26@lsu.edu
