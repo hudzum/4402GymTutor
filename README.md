@@ -10,6 +10,7 @@ This is my Example Gym Business Project, it is separted into three main sections
 3. test_queries.txt - This file holds our test queries along with the expected outcomes for each.
 
 
+
 ****How to Setup Local Host for our API testing and Grading****
 1. Open a terminal and cd into the project folder
 
