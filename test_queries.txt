@@ -28,7 +28,7 @@ VALUES ('Jared', 'Subway', '504-9205', 'yum@gmail.com', 'Basic');
 On Sqlite No output will be immediately provided, but if you run the first query Jared Sandwich is a new Member on the bottom of the list.
 
 3. Deleting an existing member
-DELETE FROM members WHERE member_id = 1
+DELETE FROM members WHERE member_id = 1;
 On Sqlite No output will be immediately provided, but upon running the first query Member with ID 1 David Clark is no longer a member and should not appear.
 
 4. Getting all the classes with Instructor Name
