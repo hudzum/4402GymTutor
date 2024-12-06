@@ -26,11 +26,11 @@ This is my Example Gym Business Project, it is separted into three main sections
 
 8. Here run in terminal "npm run dev"
   if done correctly the following output should occur
-  VITE v6.0.1  ready in 231 ms
 
-  ➜  Local:   http://localhost:5173/
-  ➜  Network: use --host to expose
-  ➜  press h + enter to show help
+  VITE v6.0.1  ready in 231 ms
+  Local:   http://localhost:5173/
+  Network: use --host to expose
+  press h + enter to show help
 
 9. Use Control + [Left click on the link] http://localhost:5173/
 
