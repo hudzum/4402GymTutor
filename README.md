@@ -16,12 +16,15 @@ This is my Example Gym Business Project, it is separted into three main sections
 
 2. cd into our backend folder
   
-4. run "node server.js"
+4. run "node server.js" (Make sure you have node.js installed)
    if done correctly the following output should occur:
    Server is running at http://localhost:3000
    Connected to the SQLite database.
+   If error occur based on Operating System "malicious software warning"
+    Must go into Security & Privacy Settings/Preferences and Unblock/Allow
 
-5. Open a new terminal and cd the main project folder
+
+6. Open a new terminal and cd the main project folder
    
 7.  cd into our GymTutorWebsite folder
 
