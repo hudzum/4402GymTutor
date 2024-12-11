@@ -25,7 +25,7 @@ This is my Example Gym Business Project, it is separted into three main sections
    
 7.  cd into our GymTutorWebsite folder
 
-8. Here run in terminal "npm run dev"
+8. Here run in terminal "npm install" then "npm run dev"
   if done correctly the following output should occur
 
   VITE v6.0.1  ready in 231 ms
